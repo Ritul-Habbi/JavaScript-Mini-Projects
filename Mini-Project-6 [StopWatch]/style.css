@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: poppins, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-image: url(bac.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    width: 30%;
+    height: 250px;
+    /* background-color: aliceblue; */
+    border-radius: 30px;
+    box-shadow: 0 0 3px rgb(242, 246, 251);
+    backdrop-filter: blur(10px);
+}
+
+#timer {
+    width: 100%;
+    font-size: 70px;
+    text-align: center;
+    margin: 0px auto;
+    padding: 35px;
+    position: relative;
+    font-weight: 700;
+}
+.buttons{
+    text-align: center;
+    
+
+}
+button{
+    margin: 0px 10px;
+    border: none;
+}
+i{
+    font-size:2rem;
+    padding: 10px;
+    color: aliceblue;
+}
+
+#play{
+    background-color: green;
+}
+#pause{
+    background-color: orange;
+}
+#reset{
+    background-color: red;
+}

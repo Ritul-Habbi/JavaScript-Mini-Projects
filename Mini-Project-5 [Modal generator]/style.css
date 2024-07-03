@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: poppins, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(1.jpg);
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+#openbtn {
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    height: 40px;
+    width: 100px;
+    background-color: azure;
+    border: none;
+    border-radius: 15px;
+    font-weight: 600;
+    transition: 0.2s;
+    cursor: pointer;
+    box-shadow: 0 0 20px blue;
+}
+
+#openbtn:hover {
+    transform: scale(1.1);
+}
+
+#openbtn:active {
+    background-color: black;
+    color: aliceblue;
+}
+
+#modal {
+    background-color: azure;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100px;
+    width: 200px;
+    padding: 30px 30px;
+    display: flex;
+    font-size: 1.2rem;
+    /* display: none; */
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    animation: modalAnimate 0.5s;
+}
+
+@keyframes modalAnimate {
+    from {
+        top: -50%;
+        opacity: 0;
+    }
+
+    to {
+        top: 50%;
+        opacity: 1;
+    }
+}
+
+
+#closebtn {
+    font-size: 1.9rem;
+    cursor: pointer;
+    color: slategrey;
+}
+
+#closebtn:hover{
+    color: red;
+}
+
+#contaioner {
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: none;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+}
