@@ -7,7 +7,6 @@ Welcome to the Mini Projects Collection repository! This repository contains a s
 - [Introduction](#introduction)
 - [Projects](#projects)
 - [Installation](#installation)
-- [Usage](#usage)
 
 ## Introduction
 
