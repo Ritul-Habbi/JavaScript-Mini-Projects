@@ -8,9 +8,6 @@ Welcome to the Mini Projects Collection repository! This repository contains a s
 - [Projects](#projects)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## Introduction
 
