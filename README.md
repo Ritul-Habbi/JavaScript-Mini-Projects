@@ -54,6 +54,23 @@ Description: It contaions three questions, upon clicking on questions the answer
 
 - **Technologies used:** HTML, CSS, JavaScript
 
+### Project 7: Stopwatch
+
+Description: It is a fully functional Stopwatch which has three buttons play, pause and stop
+
+### Project 8: To Do List
+
+Description: A to-do list app which stores all the items that you want to do in future . These to-do items and be checked or deleted. 
+
+- **Technologies used:** HTML, CSS, JavaScript
+
+### Project 9: Weather App
+
+Description: A fully functional Weather app made by using weather.api It tells about weather humidity sky and various other things. 
+
+- **Technologies used:** HTML, CSS, JavaScript
+
+
 
 ## Installation
 
